@@ -1,0 +1,129 @@
+body{
+  margin: 0;
+  font-family: "proxima-soft","Nunito",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+}
+
+.section{
+  width: 85%;
+  max-width: 1336px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  height: 80.1094px;
+}
+
+img#logo{
+  width: 120.6px;
+  float: left;
+  margin-top: 10px;
+}
+
+.header{
+  overflow: auto;
+  height: 100.109px;
+}
+
+.heading-header{
+  margin-top: 14px;
+}
+
+ul{
+  float: right;
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+  margin: 8px;
+}
+
+nav li a{
+  font-weight: 600;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+.demo-btn{
+  background-color: rgb(3, 69, 113);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.demo-btn a{
+  color: white;
+}
+
+h1{
+  color:rgb(3, 69, 113);
+  font-size: 68px;
+  line-height: 70px;
+  /* font-weight: 600; */
+  letter-spacing: -4px;
+}
+
+.call-to-action{
+  background-color: rgb(3, 69, 113);
+  color: white;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.call-to-action p{
+  font-size: 23px;
+}
+
+main{
+  max-width: 640px;
+  /* background-color: aqua; */
+}
+
+section{
+  width: 85%;
+  max-width: 1336px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.big-div{
+  background-image: url(../images/illustration-home-balloon.svg);
+  background-repeat: no-repeat;
+  background-position-x: 760px;
+  background-position-y: bottom;
+  background-size: 360px;
+}
+
+input{
+  padding: 11px;
+  width: 50%;
+  border: 0;
+  float: left;
+  font-size: 17px;
+  border-radius: 4px 0px 0px 4px;
+}
+
+button[type="submit"]{
+  padding: 14px;
+  background-color: #0079d0;
+  border: 0;
+  color: white;
+  width: 40%;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  border-radius: 0px 4px 4px 0px;
+}
+
+button[type="submit"]:hover{
+  background-color: #208cda;
+}
+
+p.small{
+  font-size: 13px;
+  padding-bottom: 4px;
+}
+
+.get-started{
+  color: rgb(3, 69, 113);
+  font-weight: 600;
+  font-size: larger;
+}
