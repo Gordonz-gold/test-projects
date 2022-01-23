@@ -1,0 +1,63 @@
+.navbar{
+ background-color: #111;
+ color: #f1f1f1; 
+}
+
+.row{
+  clear: both;
+  display: table;
+  width: 95%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.column-1{
+  float: left;
+  width: 20%;
+}
+
+.column-2{
+  float: left;
+  width: 60%;
+}
+
+.column-3{
+  width: 20%;
+  float: left;
+}
+
+.logo__text{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.pages__list{
+  list-style: none;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.pages__items{
+  display: inline-block;
+}
+
+.pages__items:not(:last-child){
+  margin-right: 3rem;
+}
+
+.btn{
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 1.15rem;
+}
+
+.btn-group{
+  text-align: right;
+}
+
+.btn--signup{
+  margin-left: 2rem;
+  border: 2.2px solid #f1f1f1;
+  border-radius: 50%;
+  padding: .7rem 1.2rem;
+}
